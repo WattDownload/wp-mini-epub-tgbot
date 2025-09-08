@@ -1,0 +1,14 @@
+[package]
+name = "wp-td"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.99"
+log = "0.4.28"
+pretty_env_logger = "0.5.0"
+reqwest = { version = "0.12.23", features = ["cookies"] }
+teloxide = { version = "0.17.0", features = ["ctrlc_handler", "macros"] }
+tokio = { version = "1.47.1", features = ["rt-multi-thread", "macros"] }
+wp-mini = "0.1.0-alpha.4"
+wp-mini-epub = "0.2.0-alpha.2"
