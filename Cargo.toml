@@ -11,4 +11,4 @@ reqwest = { version = "0.12.23", features = ["cookies"] }
 teloxide = { version = "0.17.0", features = ["ctrlc_handler", "macros"] }
 tokio = { version = "1.47.1", features = ["rt-multi-thread", "macros"] }
 wp-mini = "0.1.0-alpha.4"
-wp-mini-epub = "0.4.0-alpha.1"
+wp-mini-epub = "0.2.0-alpha.2"
